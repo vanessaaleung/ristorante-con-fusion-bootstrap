@@ -43,3 +43,7 @@
 ```html
 <ul class="list-unstyled">
 ```
+10. Hiding elements on extra small screen
+```html
+<div class=".d-none .d-sm-block">
+```
