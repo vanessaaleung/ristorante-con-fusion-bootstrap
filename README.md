@@ -31,3 +31,15 @@
 ```html
 <div class="offset-1">
 ```
+7. Vertical Alignment
+```html
+<div class="row align-items-center">
+```
+8. Horizontal Alignment
+```html
+<div class="row justify-content-center">    
+```
+9. List without bullets
+```html
+<ul class="list-unstyled">
+```
