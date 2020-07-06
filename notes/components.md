@@ -97,3 +97,55 @@
 <a role="button" class="btn"></a>
 ```
 ### Forms
+1. Add a form
+```html
+<form>
+    <div class="form-group row">
+    ...
+    </div>
+    ...
+</form>
+```
+2. Add inputs inside each row
+```html
+<label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+<div class="col-md-10">
+    <input type="text" class="form-control" id="lastname" name="lastname"
+        placeholder="Last Name">
+</div>
+```
+3. Add checkbox
+```html
+<input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+<label class="form-check-label" for="approve">
+    <strong>May we contact you?</strong>
+</label>
+
+4. Add select
+```html
+ <select class="form-control">
+    <option>Tel.</option>
+    <option>Email</option>
+</select>
+```
+5. Add submit button
+```html
+<button type="submit" class="btn btn-primary">
+    Send Feedback
+</button>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
