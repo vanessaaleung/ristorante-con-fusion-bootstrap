@@ -37,3 +37,8 @@ body {
 .navbar-light .navbar-toggler {
   border: none;
 }
+
+.btn-social-icon {
+  border: none;
+  border-radius: 20px;
+}
