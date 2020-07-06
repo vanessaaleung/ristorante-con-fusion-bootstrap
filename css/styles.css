@@ -20,9 +20,9 @@
   padding: 70px 30px 70px 30px;
   margin: 0px auto;
   background: #FFD7D2;
-  /* color: floralwhite; */
   background-image: url('../images/jumbotron_bg.svg');
   background-size: cover;
+  background-position: right;  
 }
 
 .address {
@@ -65,11 +65,12 @@ a:hover {
 .btn-primary {
   background-color: #EF9A9A;
   border: none;
-  color: black;
+  outline: none;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
   background-color: #E57373;
+  outline: none;
 }
 
 .btn-info {
@@ -89,5 +90,17 @@ a:hover {
 
 .btn-success:hover {
   background-color: #FF8A65;
-
 }
+
+.form-custom {
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  outline: none;
+}
+
+.form-custom:focus {
+  outline: none;
+  border-bottom: 3px solid black;
+}
+
