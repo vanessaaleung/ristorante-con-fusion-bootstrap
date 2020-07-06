@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
 
@@ -22,7 +23,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="#">Ristorante Con Fusion</a>
+            <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="41">&nbsp;&nbsp;</a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
                         <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
@@ -41,7 +42,8 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm">
+                <div class="col-12 col-sm align-self-center">
+                    <img src="img/logo.png" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -90,8 +92,9 @@
         <div class="row row-content">
            <div class="col-12">
               <h3>Send us your Feedback</h3>
+              <br/>
            </div>
-            <div class="col-12 col-md-9">
+            <div class="col-12 col-md-9 form-bg">
                 <form>
                     <div class="form-group row">
                         <label for="firstname" class="col-md-2 col-form-label">First Name</label>
@@ -144,13 +147,13 @@
                     <div class="form-group row">
                         <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
                         <div class="col-md-10">
-                            <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+                            <textarea class="form-control form-custom" id="feedback" name="feedback" rows="12"></textarea>
                         </div>
                     </div>
                     <div class="form-group row">
                         <div class="offset-md-2 col-md-10">
-                            <button type="submit" class="btn btn-primary">
-                                Send Feedback
+                            <button type="submit" class="btn btn-submit">
+                                SEND FEEDBACK
                             </button>
                         </div>
                    </div>
