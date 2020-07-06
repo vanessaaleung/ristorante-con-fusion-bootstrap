@@ -1,4 +1,7 @@
 # Components
+1. [Navigation](#navigation)
+2. [Icon Font](#icon-font)
+
 ## Navigation
 ```html
 <nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
@@ -61,3 +64,23 @@
     <li class="breadcrumb-item active">About Us</li>
 </ol>
 ```
+
+## Icon Font
+1. Install `font-awesome` and `bootstrap-social`
+2. Import 
+```html
+<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+```
+3. Add icons - use either `<span>` or `<i>`
+```html
+<span class="fa fa-home fa-lg"></span>
+```
+```html
+<i class="fa fa-phone fa-lg"></i>
+```
+4. Apply bootstrap social button class
+```html
+<a class="btn btn-social-icon btn-google" href="#"><i class=""></i></a>
+```
+
