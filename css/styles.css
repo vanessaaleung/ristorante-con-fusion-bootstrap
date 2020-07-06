@@ -104,3 +104,13 @@ a:hover {
   border-bottom: 3px solid black;
 }
 
+.card {
+  border: none;
+}
+
+.card-header {
+  background-color: #343A40;
+  color: white;
+}
+
+
