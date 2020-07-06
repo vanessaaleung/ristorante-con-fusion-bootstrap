@@ -1,6 +1,8 @@
 # Components
 1. [Navigation](#navigation)
 2. [Icon Font](#icon-font)
+3. [Input](#input)
+
 
 ## Navigation
 ```html
@@ -84,3 +86,14 @@
 <a class="btn btn-social-icon btn-google" href="#"><i class=""></i></a>
 ```
 
+## Input
+### Buttons
+1. Create a button group
+```html
+<div class="btn-group" role="group">
+```
+2. Add buttons using `<a>` tag
+```html
+<a role="button" class="btn"></a>
+```
+### Forms
