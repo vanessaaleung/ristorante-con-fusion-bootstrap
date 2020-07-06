@@ -143,6 +143,32 @@ a:hover {
   font-size: 15px;
 }
 
+.btn-reserve {
+  background-color: white;
+  padding: 10px 30px 10px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 20px;
+}
 
+.btn-reserve:hover, .btn-reserve:active, .btn-reserve:focus {
+  background-color: #eee;
+  outline: none;
+}
+
+.btn-submit-reserve {
+  background-color: #eee;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  outline: none;
+  float: right;
+  font-weight: bold;
+} 
+
+.btn-submit-reserve:hover, .btn-submit-reserve:active, .btn-submit-reserve:focus {
+  background-color: darkgray;
+  outline: none;
+}
 
 
