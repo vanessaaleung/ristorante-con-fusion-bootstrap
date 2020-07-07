@@ -209,6 +209,13 @@ height: 300px;
   min-height: 300px;
 }
 
+#carouselButton {
+  right:0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+}
+
 .carousel-caption {
   text-align: right;
   left: 300px;
