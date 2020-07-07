@@ -77,6 +77,16 @@ a:hover {
   outline: none;
 }
 
+.btn-non-smoke {
+  background-color: #9CCC65;
+  color: black;
+}
+
+.btn-non-smoke.active, .btn-non-smoke:focus, .btn-non-smoke:hover {
+  background-color: #33691E;
+  color: white;
+}
+
 .btn-info {
   background-color: #FFE0B2;
   border: none;
@@ -106,7 +116,7 @@ a:hover {
   border: none;
   border-radius: 20px;
   outline: none;
-  padding: 0px 0px 0px 20px;
+  padding: 0px 20px 0px 20px;
   height: 50px;
 }
 
@@ -157,8 +167,8 @@ a:hover {
 }
 
 .btn-submit-reserve {
-  background-color: #eee;
-  border: none;
+  background-color: #F8F9FA;
+  border: 1px solid #FFB74D;
   border-radius: 20px;
   padding: 10px 30px 10px 30px;
   outline: none;
@@ -167,8 +177,14 @@ a:hover {
 } 
 
 .btn-submit-reserve:hover, .btn-submit-reserve:active, .btn-submit-reserve:focus {
-  background-color: darkgray;
+  background-color: #FFB74D;
   outline: none;
+}
+
+.btn-cancel-reserve {
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  margin-right: 10px;
 }
 
 .card-block {
@@ -181,3 +197,34 @@ a:hover {
   border-bottom: 1px solid #ddd;
   padding: 10px;
 }
+
+.carousel-item {
+height: 300px;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+
+.carousel-caption {
+  text-align: right;
+  left: 300px;
+  color: black;
+  top: 20%;
+}
+
+.carousel-indicators li {
+  background-color: black;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  filter: invert(100%);
+}
+
+.reserve-modal {
+  background-color: #eee;
+}
+
