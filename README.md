@@ -1,5 +1,5 @@
 # Ristorante con Fusion
-_A restaurant website design, utilizing Bootstrap4._
+_A restaurant website design, utilizing Bootstrap4_
 
 Check out the website [here](https://vanessaaleung.github.io/conFusion/)
 
